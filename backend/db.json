@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": 4,
+      "title": "magnam quia facere",
+      "author": "kokokokokokoko",
+      "publishedDate": "2022-08-22T00:00:00.000Z",
+      "editor": "Edith Lehner"
+    },
+    {
+      "id": 5,
+      "title": "illum quibusdam vel",
+      "author": "Aubrey Glover",
+      "publishedDate": "2023-05-23T10:28:24.290Z",
+      "editor": "Neil Huel"
+    },
+    {
+      "id": 6,
+      "title": "sed similique ea",
+      "author": "Lila Mertz",
+      "publishedDate": "2022-12-14T00:29:49.453Z",
+      "editor": "Colin Rau"
+    },
+    {
+      "id": 7,
+      "title": "voluptatem harum ipsum",
+      "author": "Ora Koepp",
+      "publishedDate": "2022-11-30T12:02:47.806Z",
+      "editor": "Richard Kling"
+    },
+    {
+      "id": 8,
+      "title": "est consequatur quis",
+      "author": "Delbert Mosciski",
+      "publishedDate": "2023-05-14T14:02:54.281Z",
+      "editor": "Tracy Gutmann"
+    },
+    {
+      "id": 9,
+      "title": "vitae atque delectus",
+      "author": "Manuel Trantow",
+      "publishedDate": "2023-04-18T16:42:36.442Z",
+      "editor": "Sammy Lockman"
+    },
+    {
+      "id": 10,
+      "title": "amet voluptas corrupti",
+      "author": "Dana Emmerich",
+      "publishedDate": "2023-07-04T15:26:04.158Z",
+      "editor": "Dr. Benjamin McLaughlin"
+    },
+    {
+      "id": 518,
+      "title": "react to the mmond",
+      "author": "dan abramov",
+      "publishedDate": "2023-02-09T00:00:00.000Z",
+      "editor": "meta"
+    }
+  ]
+}

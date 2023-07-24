@@ -1,0 +1,9 @@
+<h2>Book List ({{(books$| async)?.length }}) | <button (click)="createBook()">Create</button></h2>
+<ul>
+  <li *ngFor="let book of books$ | async">
+    {{ book.title }} - {{ book.author }}
+    <button (click)="viewBookDetails(book.id)">View Details</button>
+    <button (click)="editBook(book.id)">Edit</button>
+    <button (click)="deleteBook(book.id)">Delete</button>
+  </li>
+</ul>

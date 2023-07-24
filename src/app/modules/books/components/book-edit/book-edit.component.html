@@ -1,0 +1,17 @@
+<h2>Edit Book</h2>
+<form #bookForm="ngForm" (ngSubmit)="updateBook(bookForm)">
+  <label>
+    Title: <input type="text" name="title" [ngModel]="book?.title" required>
+  </label>
+  <label>
+    Author: <input type="text" name="author" [ngModel]="book?.author" required>
+  </label>
+  <label>
+    Published Date: <input type="date" name="publishedDate" [ngModel]="book?.publishedDate | date: 'yyyy-MM-dd'" required>
+  </label>
+  <label>
+    Editor: <input type="text" name="editor" [ngModel]="book?.editor" required>
+  </label>
+  <button type="submit" [disabled]="bookForm.invalid">Update</button>
+  <button type="button" (click)="goBack()">Cancel</button>
+</form>

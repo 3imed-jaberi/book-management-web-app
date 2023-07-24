@@ -1,0 +1,19 @@
+<div>
+<form #bookForm="ngForm" (ngSubmit)="createBook(bookForm)">
+  <h2>Create New Book</h2>
+  <label>
+    Title: <input type="text" name="title" ngModel required>
+  </label>
+  <label>
+    Author: <input type="text" ngModel name="author" required>
+  </label>
+  <label>
+    Published Date: <input type="date" ngModel name="publishedDate" required>
+  </label>
+  <label>
+    Editor: <input type="text" ngModel name="editor" required>
+  </label>
+  <button type="submit" [disabled]="bookForm.invalid">Create</button>
+  <button type="button" (click)="goBack()">Cancel</button>
+</form>
+</div>
